@@ -1,13 +1,13 @@
 Clone rep and:
 
-1.
+Step 1
 <code>docker build -t fastapi:v1 .</code>
 
-2.
+Step 2
 <code>docker run --rm --name myfastapi -d -p 8080:8000 fastapi:v1</code>
 
-3.
-http://localhost:8080/
+Step 3
+Go to http://localhost:8080/
 
-4.
+Step 4
 <code>docker stop myfastapi</code>
